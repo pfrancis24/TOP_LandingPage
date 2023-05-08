@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
+  min-width: 100vw;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -9,11 +10,12 @@ body {
 }
 
 .header {
-  padding: 0 13rem 0 13rem;
+  padding-top: 1rem;
+  min-width: 100vw;
   background-color: #1f2937;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .logo {
@@ -35,10 +37,15 @@ a {
 
 .hero-block {
   padding: 6rem 13rem 0 13rem;
-  min-height: 30rem;
+  min-height: 25rem;
   min-width: 100vw;
   display: flex;
-  justify-content: space-between;
+  gap: 40px;
+  border: 1px solid aqua;
+}
+
+.hero-left {
+  width: 30vw;
 }
 
 .hero-text {
@@ -47,10 +54,31 @@ a {
   color: #f9faf8;
 }
 
+.hero-subtext {
+  margin: 0.5rem 0;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-button {
+  margin: 0.5rem 0;
+  padding: 0.5rem 1.75rem;
+  font-size: 18px;
+  font-style: bolder;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: #3882f6 0px solid;
+  border-radius: 5px;
+}
+
 .image {
   background-color: #6e747d;
+  color: #f9faf8;
   width: 550px;
   height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer {
