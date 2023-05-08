@@ -9,7 +9,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.header {
+.header-container {
   padding-top: 1rem;
   min-width: 100vw;
   background-color: #1f2937;
@@ -35,7 +35,7 @@ a {
   text-decoration: none;
 }
 
-.hero-block {
+.hero-container {
   padding: 6rem 13rem 0 13rem;
   min-height: 25rem;
   min-width: 100vw;
